@@ -1,0 +1,106 @@
+body{
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    margin: 0;
+}
+#navegacao{
+    margin-top: 20px;
+}
+.lista-nav{
+    padding: 0 25px;
+}
+.lista-nav li{
+    display: inline-block;
+    list-style: none;
+    padding: 5px 10px;
+}
+.lista-nav li a{
+    color: #5f6368;
+    text-decoration: none;
+}
+.lista-nav li a:hover{
+    text-decoration: underline;
+}
+#social-bar{
+    text-align: right;
+}
+
+
+#body{
+    text-align: center;
+}
+#google-logo{
+    padding-top: 7%;
+    margin-bottom: 25px;
+}
+#caixa-pesquisa{
+    width: 43vw;
+    height: 60px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+#procurar{
+    height: 40px;
+    border-radius: 24px ;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 16px;
+    padding: 0 50px;
+    border: 1px solid #dfdfdf ;
+    
+}
+#procurar:hover{
+    box-shadow: 0px 0px 5px #ddd;
+}
+#icone-pesquisa, #icone-teclado, #icone-mic{
+    position: absolute;
+    top: 12px;
+    font-size: 18px;
+}
+#icone-pesquisa{
+    left: 20px;
+}
+#icone-teclado{
+    right: 55px;
+}
+#icone-mic{
+    right: 20px;
+}
+#body input[type='submit']{
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5f6368;
+    height: 34px;
+    padding: 0 16px;
+    font-size: 14px;
+    margin: 15px 6px;
+    cursor: pointer;
+}
+#body input[type='submit']:hover{
+    color: #333;
+    border-color: #333;
+}
+
+
+footer{
+    position: absolute;
+    display: block;
+    box-sizing: border-box;
+    bottom: 0;
+    height: 42px;
+    width: 100%;
+    background-color: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+}
+
+#barra-direita, #barra-esquerda{
+    display: inline-block;
+    margin-top: 8px;
+    margin-bottom: 0;
+}
+#barra-direita{
+    position: absolute;
+    right: 0;
+}
